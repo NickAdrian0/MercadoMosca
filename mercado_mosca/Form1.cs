@@ -81,5 +81,10 @@ namespace mercado_mosca
             }
             this.Hide();
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

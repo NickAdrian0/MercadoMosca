@@ -45,7 +45,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(437, 363);
+            this.button2.Location = new System.Drawing.Point(503, 351);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(128, 30);
             this.button2.TabIndex = 33;
@@ -55,7 +55,7 @@
             // 
             // tbp
             // 
-            this.tbp.Location = new System.Drawing.Point(489, 322);
+            this.tbp.Location = new System.Drawing.Point(496, 322);
             this.tbp.Name = "tbp";
             this.tbp.ReadOnly = true;
             this.tbp.Size = new System.Drawing.Size(143, 20);
@@ -65,7 +65,7 @@
             // 
             this.lbp.AutoSize = true;
             this.lbp.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbp.Location = new System.Drawing.Point(387, 320);
+            this.lbp.Location = new System.Drawing.Point(439, 320);
             this.lbp.Name = "lbp";
             this.lbp.Size = new System.Drawing.Size(54, 20);
             this.lbp.TabIndex = 31;
@@ -74,7 +74,7 @@
             // 
             // tbq
             // 
-            this.tbq.Location = new System.Drawing.Point(489, 290);
+            this.tbq.Location = new System.Drawing.Point(496, 290);
             this.tbq.Name = "tbq";
             this.tbq.Size = new System.Drawing.Size(143, 20);
             this.tbq.TabIndex = 30;
@@ -84,7 +84,7 @@
             // 
             this.lbq.AutoSize = true;
             this.lbq.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbq.Location = new System.Drawing.Point(387, 290);
+            this.lbq.Location = new System.Drawing.Point(397, 290);
             this.lbq.Name = "lbq";
             this.lbq.Size = new System.Drawing.Size(96, 20);
             this.lbq.TabIndex = 29;
@@ -95,7 +95,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(387, 242);
+            this.label1.Location = new System.Drawing.Point(431, 57);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(249, 24);
             this.label1.TabIndex = 28;
@@ -107,7 +107,7 @@
             this.pictureBox11.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox11.BackgroundImage = global::mercado_mosca.Properties.Resources.bola_cerebro;
             this.pictureBox11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox11.Location = new System.Drawing.Point(382, 45);
+            this.pictureBox11.Location = new System.Drawing.Point(435, 84);
             this.pictureBox11.Name = "pictureBox11";
             this.pictureBox11.Size = new System.Drawing.Size(254, 182);
             this.pictureBox11.TabIndex = 34;
@@ -127,7 +127,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(320, 9);
+            this.label2.Location = new System.Drawing.Point(315, 7);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(91, 13);
             this.label2.TabIndex = 36;
@@ -135,7 +135,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(290, 4);
+            this.button1.Location = new System.Drawing.Point(288, 1);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(24, 23);
             this.button1.TabIndex = 35;
@@ -145,7 +145,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(693, 415);
+            this.button3.Location = new System.Drawing.Point(701, 425);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(95, 23);
             this.button3.TabIndex = 37;

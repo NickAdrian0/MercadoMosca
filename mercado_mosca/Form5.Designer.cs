@@ -42,7 +42,7 @@
             // listBoxProdutos
             // 
             this.listBoxProdutos.FormattingEnabled = true;
-            this.listBoxProdutos.Location = new System.Drawing.Point(336, 113);
+            this.listBoxProdutos.Location = new System.Drawing.Point(395, 113);
             this.listBoxProdutos.Name = "listBoxProdutos";
             this.listBoxProdutos.Size = new System.Drawing.Size(314, 212);
             this.listBoxProdutos.TabIndex = 0;
@@ -62,7 +62,7 @@
             // 
             this.lbq.AutoSize = true;
             this.lbq.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbq.Location = new System.Drawing.Point(332, 78);
+            this.lbq.Location = new System.Drawing.Point(391, 90);
             this.lbq.Name = "lbq";
             this.lbq.Size = new System.Drawing.Size(162, 20);
             this.lbq.TabIndex = 32;
@@ -73,7 +73,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(319, 9);
+            this.label2.Location = new System.Drawing.Point(308, 6);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(91, 13);
             this.label2.TabIndex = 34;
@@ -81,7 +81,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(289, 4);
+            this.button1.Location = new System.Drawing.Point(285, 1);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(24, 23);
             this.button1.TabIndex = 33;
@@ -91,7 +91,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(433, 357);
+            this.button2.Location = new System.Drawing.Point(394, 356);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(99, 23);
             this.button2.TabIndex = 35;
@@ -101,7 +101,7 @@
             // 
             // btnRemover
             // 
-            this.btnRemover.Location = new System.Drawing.Point(572, 78);
+            this.btnRemover.Location = new System.Drawing.Point(594, 86);
             this.btnRemover.Name = "btnRemover";
             this.btnRemover.Size = new System.Drawing.Size(115, 23);
             this.btnRemover.TabIndex = 36;
@@ -111,7 +111,7 @@
             // 
             // txtPrecoTotal
             // 
-            this.txtPrecoTotal.Location = new System.Drawing.Point(410, 331);
+            this.txtPrecoTotal.Location = new System.Drawing.Point(395, 331);
             this.txtPrecoTotal.Name = "txtPrecoTotal";
             this.txtPrecoTotal.ReadOnly = true;
             this.txtPrecoTotal.Size = new System.Drawing.Size(159, 20);

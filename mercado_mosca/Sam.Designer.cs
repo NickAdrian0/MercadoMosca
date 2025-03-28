@@ -45,7 +45,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(443, 364);
+            this.button2.Location = new System.Drawing.Point(499, 350);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(128, 30);
             this.button2.TabIndex = 35;
@@ -55,7 +55,7 @@
             // 
             // tbp
             // 
-            this.tbp.Location = new System.Drawing.Point(495, 323);
+            this.tbp.Location = new System.Drawing.Point(493, 323);
             this.tbp.Name = "tbp";
             this.tbp.ReadOnly = true;
             this.tbp.Size = new System.Drawing.Size(143, 20);
@@ -65,7 +65,7 @@
             // 
             this.lbp.AutoSize = true;
             this.lbp.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbp.Location = new System.Drawing.Point(393, 321);
+            this.lbp.Location = new System.Drawing.Point(434, 321);
             this.lbp.Name = "lbp";
             this.lbp.Size = new System.Drawing.Size(54, 20);
             this.lbp.TabIndex = 33;
@@ -74,7 +74,7 @@
             // 
             // tbq
             // 
-            this.tbq.Location = new System.Drawing.Point(495, 291);
+            this.tbq.Location = new System.Drawing.Point(492, 291);
             this.tbq.Name = "tbq";
             this.tbq.Size = new System.Drawing.Size(143, 20);
             this.tbq.TabIndex = 32;
@@ -95,7 +95,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(325, 9);
+            this.label2.Location = new System.Drawing.Point(320, 9);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(91, 13);
             this.label2.TabIndex = 30;
@@ -103,7 +103,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(295, 4);
+            this.button1.Location = new System.Drawing.Point(294, 3);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(24, 23);
             this.button1.TabIndex = 29;
@@ -115,7 +115,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(413, 242);
+            this.label1.Location = new System.Drawing.Point(369, 42);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(225, 24);
             this.label1.TabIndex = 28;
@@ -137,7 +137,7 @@
             this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox5.BackgroundImage = global::mercado_mosca.Properties.Resources.samambaia;
             this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox5.Location = new System.Drawing.Point(353, 25);
+            this.pictureBox5.Location = new System.Drawing.Point(373, 69);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(343, 214);
             this.pictureBox5.TabIndex = 36;
@@ -145,7 +145,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(693, 415);
+            this.button3.Location = new System.Drawing.Point(703, 427);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(95, 23);
             this.button3.TabIndex = 37;
