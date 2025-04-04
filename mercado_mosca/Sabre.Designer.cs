@@ -45,7 +45,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(497, 350);
+            this.button2.Location = new System.Drawing.Point(456, 363);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(128, 30);
             this.button2.TabIndex = 35;
@@ -55,7 +55,7 @@
             // 
             // tbp
             // 
-            this.tbp.Location = new System.Drawing.Point(489, 324);
+            this.tbp.Location = new System.Drawing.Point(508, 322);
             this.tbp.Name = "tbp";
             this.tbp.ReadOnly = true;
             this.tbp.Size = new System.Drawing.Size(143, 20);
@@ -65,7 +65,7 @@
             // 
             this.lbp.AutoSize = true;
             this.lbp.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbp.Location = new System.Drawing.Point(429, 324);
+            this.lbp.Location = new System.Drawing.Point(406, 320);
             this.lbp.Name = "lbp";
             this.lbp.Size = new System.Drawing.Size(54, 20);
             this.lbp.TabIndex = 33;
@@ -74,7 +74,7 @@
             // 
             // tbq
             // 
-            this.tbq.Location = new System.Drawing.Point(489, 290);
+            this.tbq.Location = new System.Drawing.Point(508, 290);
             this.tbq.Name = "tbq";
             this.tbq.Size = new System.Drawing.Size(143, 20);
             this.tbq.TabIndex = 32;
@@ -84,7 +84,7 @@
             // 
             this.lbq.AutoSize = true;
             this.lbq.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbq.Location = new System.Drawing.Point(387, 290);
+            this.lbq.Location = new System.Drawing.Point(406, 290);
             this.lbq.Name = "lbq";
             this.lbq.Size = new System.Drawing.Size(96, 20);
             this.lbq.TabIndex = 31;
@@ -95,7 +95,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(334, 8);
+            this.label2.Location = new System.Drawing.Point(338, 8);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(91, 13);
             this.label2.TabIndex = 30;
@@ -115,7 +115,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(377, 35);
+            this.label1.Location = new System.Drawing.Point(395, 240);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(252, 24);
             this.label1.TabIndex = 28;
@@ -127,7 +127,7 @@
             this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox7.BackgroundImage = global::mercado_mosca.Properties.Resources.sabre_luz;
             this.pictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox7.Location = new System.Drawing.Point(381, 62);
+            this.pictureBox7.Location = new System.Drawing.Point(373, 24);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(329, 213);
             this.pictureBox7.TabIndex = 36;
@@ -145,7 +145,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(704, 426);
+            this.button3.Location = new System.Drawing.Point(693, 415);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(95, 23);
             this.button3.TabIndex = 37;
@@ -170,8 +170,10 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
+            this.MaximizeBox = false;
             this.Name = "Sabre";
-            this.Text = "Sabre";
+            this.Text = "Produto: Sabre";
+            this.Load += new System.EventHandler(this.Sabre_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

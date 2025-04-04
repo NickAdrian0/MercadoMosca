@@ -47,7 +47,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(325, 8);
+            this.label2.Location = new System.Drawing.Point(333, 9);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(91, 13);
             this.label2.TabIndex = 20;
@@ -55,7 +55,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(302, 3);
+            this.button1.Location = new System.Drawing.Point(303, 4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(24, 23);
             this.button1.TabIndex = 19;
@@ -67,7 +67,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(402, 38);
+            this.label1.Location = new System.Drawing.Point(390, 241);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(276, 24);
             this.label1.TabIndex = 18;
@@ -78,7 +78,7 @@
             // 
             this.lbq.AutoSize = true;
             this.lbq.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbq.Location = new System.Drawing.Point(384, 289);
+            this.lbq.Location = new System.Drawing.Point(401, 275);
             this.lbq.Name = "lbq";
             this.lbq.Size = new System.Drawing.Size(96, 20);
             this.lbq.TabIndex = 21;
@@ -87,7 +87,7 @@
             // 
             // tbq
             // 
-            this.tbq.Location = new System.Drawing.Point(486, 291);
+            this.tbq.Location = new System.Drawing.Point(503, 277);
             this.tbq.Name = "tbq";
             this.tbq.Size = new System.Drawing.Size(143, 20);
             this.tbq.TabIndex = 22;
@@ -97,7 +97,7 @@
             // 
             this.lbp.AutoSize = true;
             this.lbp.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbp.Location = new System.Drawing.Point(426, 321);
+            this.lbp.Location = new System.Drawing.Point(401, 305);
             this.lbp.Name = "lbp";
             this.lbp.Size = new System.Drawing.Size(54, 20);
             this.lbp.TabIndex = 23;
@@ -106,15 +106,16 @@
             // 
             // tbp
             // 
-            this.tbp.Location = new System.Drawing.Point(486, 323);
+            this.tbp.Location = new System.Drawing.Point(503, 307);
             this.tbp.Name = "tbp";
             this.tbp.ReadOnly = true;
             this.tbp.Size = new System.Drawing.Size(143, 20);
             this.tbp.TabIndex = 24;
+            this.tbp.TextChanged += new System.EventHandler(this.tbp_TextChanged);
             // 
             // bt
             // 
-            this.bt.Location = new System.Drawing.Point(492, 349);
+            this.bt.Location = new System.Drawing.Point(455, 347);
             this.bt.Name = "bt";
             this.bt.Size = new System.Drawing.Size(128, 30);
             this.bt.TabIndex = 25;
@@ -124,7 +125,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(702, 426);
+            this.button2.Location = new System.Drawing.Point(693, 415);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(95, 23);
             this.button2.TabIndex = 26;
@@ -137,7 +138,7 @@
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.BackgroundImage = global::mercado_mosca.Properties.Resources.monitor_quebrado;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(405, 64);
+            this.pictureBox2.Location = new System.Drawing.Point(385, 48);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(291, 190);
             this.pictureBox2.TabIndex = 17;
@@ -170,6 +171,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
+            this.MaximizeBox = false;
             this.Name = "Monitor";
             this.Text = "Monitor";
             this.Load += new System.EventHandler(this.Monitor_Load);

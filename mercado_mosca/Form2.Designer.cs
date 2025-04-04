@@ -136,7 +136,7 @@
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(277, 479);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(131, 16);
+            this.label5.Size = new System.Drawing.Size(130, 16);
             this.label5.TabIndex = 10;
             this.label5.Text = "Não tem uma conta?";
             // 
@@ -188,8 +188,9 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
+            this.MaximizeBox = false;
             this.Name = "Form2";
-            this.Text = "Form2";
+            this.Text = "Tela Inicial";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

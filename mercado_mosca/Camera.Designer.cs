@@ -45,7 +45,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(502, 348);
+            this.button2.Location = new System.Drawing.Point(450, 363);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(128, 30);
             this.button2.TabIndex = 35;
@@ -55,7 +55,7 @@
             // 
             // tbp
             // 
-            this.tbp.Location = new System.Drawing.Point(493, 322);
+            this.tbp.Location = new System.Drawing.Point(502, 322);
             this.tbp.Name = "tbp";
             this.tbp.ReadOnly = true;
             this.tbp.Size = new System.Drawing.Size(143, 20);
@@ -65,7 +65,7 @@
             // 
             this.lbp.AutoSize = true;
             this.lbp.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbp.Location = new System.Drawing.Point(433, 320);
+            this.lbp.Location = new System.Drawing.Point(400, 320);
             this.lbp.Name = "lbp";
             this.lbp.Size = new System.Drawing.Size(54, 20);
             this.lbp.TabIndex = 33;
@@ -74,7 +74,7 @@
             // 
             // tbq
             // 
-            this.tbq.Location = new System.Drawing.Point(493, 290);
+            this.tbq.Location = new System.Drawing.Point(502, 290);
             this.tbq.Name = "tbq";
             this.tbq.Size = new System.Drawing.Size(143, 20);
             this.tbq.TabIndex = 32;
@@ -84,7 +84,7 @@
             // 
             this.lbq.AutoSize = true;
             this.lbq.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbq.Location = new System.Drawing.Point(391, 290);
+            this.lbq.Location = new System.Drawing.Point(400, 290);
             this.lbq.Name = "lbq";
             this.lbq.Size = new System.Drawing.Size(96, 20);
             this.lbq.TabIndex = 31;
@@ -95,7 +95,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(328, 7);
+            this.label2.Location = new System.Drawing.Point(332, 8);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(91, 13);
             this.label2.TabIndex = 30;
@@ -103,7 +103,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(301, 2);
+            this.button1.Location = new System.Drawing.Point(302, 3);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(24, 23);
             this.button1.TabIndex = 29;
@@ -115,7 +115,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(373, 40);
+            this.label1.Location = new System.Drawing.Point(400, 240);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(268, 24);
             this.label1.TabIndex = 28;
@@ -137,7 +137,7 @@
             this.pictureBox8.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox8.BackgroundImage = global::mercado_mosca.Properties.Resources.camera_termica;
             this.pictureBox8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox8.Location = new System.Drawing.Point(377, 67);
+            this.pictureBox8.Location = new System.Drawing.Point(362, 24);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(371, 217);
             this.pictureBox8.TabIndex = 36;
@@ -145,7 +145,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(704, 426);
+            this.button3.Location = new System.Drawing.Point(703, 415);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(95, 23);
             this.button3.TabIndex = 37;
@@ -170,8 +170,9 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
+            this.MaximizeBox = false;
             this.Name = "Camera";
-            this.Text = "Camera";
+            this.Text = "Produto: Camera";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.ResumeLayout(false);

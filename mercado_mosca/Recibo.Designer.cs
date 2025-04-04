@@ -35,7 +35,6 @@
             this.lbq = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -53,9 +52,9 @@
             // listBoxRecibo
             // 
             this.listBoxRecibo.FormattingEnabled = true;
-            this.listBoxRecibo.Location = new System.Drawing.Point(341, 101);
+            this.listBoxRecibo.Location = new System.Drawing.Point(295, 81);
             this.listBoxRecibo.Name = "listBoxRecibo";
-            this.listBoxRecibo.Size = new System.Drawing.Size(234, 199);
+            this.listBoxRecibo.Size = new System.Drawing.Size(447, 199);
             this.listBoxRecibo.TabIndex = 1;
             this.listBoxRecibo.SelectedIndexChanged += new System.EventHandler(this.listBoxRecibo_SelectedIndexChanged);
             // 
@@ -63,7 +62,7 @@
             // 
             this.lblPrecoTotal.AutoSize = true;
             this.lblPrecoTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPrecoTotal.Location = new System.Drawing.Point(428, 304);
+            this.lblPrecoTotal.Location = new System.Drawing.Point(337, 293);
             this.lblPrecoTotal.Name = "lblPrecoTotal";
             this.lblPrecoTotal.Size = new System.Drawing.Size(51, 20);
             this.lblPrecoTotal.TabIndex = 2;
@@ -105,23 +104,12 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(338, 80);
+            this.label2.Location = new System.Drawing.Point(338, 60);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(126, 18);
             this.label2.TabIndex = 35;
             this.label2.Text = "Lista de produtos:";
             this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(338, 305);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(84, 18);
-            this.label3.TabIndex = 36;
-            this.label3.Text = "Preço total:";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // button1
             // 
@@ -140,7 +128,6 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lbq);
@@ -148,6 +135,7 @@
             this.Controls.Add(this.lblPrecoTotal);
             this.Controls.Add(this.listBoxRecibo);
             this.Controls.Add(this.btnFechar);
+            this.MaximizeBox = false;
             this.Name = "Recibo";
             this.Text = "Recibo";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -165,7 +153,6 @@
         private System.Windows.Forms.Label lbq;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button1;
     }
 }

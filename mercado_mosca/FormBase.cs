@@ -71,36 +71,33 @@ namespace mercado_mosca
         }
         private void ImagemMaior_Click(object sender, EventArgs e)
         {
-            if (imagemMaior != null)
+            if (imagemMaior != null && imagemMaior.Image != null)
             {
+                Console.WriteLine("Imagem clicada, índice: " + imagemIndex);
+
+                switch (imagemIndex)
+                {
+                    case 0:
+                        FoneGato formFoneGato = new FoneGato();
+                        formFoneGato.Show();
+                        this.Hide();
+                        break;
+                    case 1:
+                        Oculos formOculos = new Oculos();
+                        formOculos.Show();
+                        this.Hide();
+                        break;
+
+                        MessageBox.Show("Nenhum formulário associado para o índice " + imagemIndex);
+                        break;
+                }
                 imagemMaior.Visible = false;
-                if (imagemMaior.Image == Properties.Resources.anuncio1)
-                {
-                    FoneGato homeForm = new FoneGato();
-                    homeForm.Show();
-                    this.Hide();
-                }
-                if(imagemMaior.Image == Properties.Resources.anuncio2)
-                {
-                    Oculos homeForm = new Oculos();
-                    homeForm.Show();
-                    this.Hide();
-                }
-                if (imagemMaior.Image == Properties.Resources.anuncio3)
-                {
-                    Form4 homeForm = new Form4();
-                    homeForm.Show();
-                    this.Hide();
-                }
-                if (imagemMaior.Image == Properties.Resources.anuncio4)
-                {
-                    Form5 homeForm = new Form5();
-                    homeForm.Show();
-                    this.Hide();
-                }
-               
             }
-            ReiniciarTimer(); 
+            else
+            {
+                MessageBox.Show("Nenhuma imagem foi definida no PictureBox.");
+            }
+            ReiniciarTimer();
         }
         private void ReiniciarTimer()
         {
